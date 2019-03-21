@@ -42,14 +42,14 @@
     },
     methods: {
       login() {
-        if (!this.userName) {
-          this.$message.error('请输入用户名');
-          return;
-        }
-        if (!this.password) {
-          this.$message.error('请输入密码');
-          return;
-        }
+          if (!this.userName) {
+            this.$message.error('请输入用户名');
+            return;
+          }
+          if (!this.password) {
+            this.$message.error('请输入密码');
+            return;
+          }
 
       }
     }
